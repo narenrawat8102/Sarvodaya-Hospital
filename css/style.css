@@ -9,6 +9,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-size: 1.6rem;
+  font-family: "Gudea", sans-serif;
 }
 
 *,
@@ -33,3 +34,148 @@ footer {
   margin: 0;
 }
 /* CSS Initial Set-up ends here  */
+
+/* Header Starts From Here  */
+
+.header-container {
+  height: 135px;
+  width: 100%;
+  background-color: #fff;
+}
+
+.logo-icons {
+  height: 90px;
+  width: 1915px;
+  display: flex;
+}
+
+.logo {
+  width: 479px;
+  height: 90px;
+}
+
+.logo img {
+  width: 261px;
+  height: 79px;
+  padding: 10px;
+  margin: 23px 30px;
+}
+
+.icons {
+  width: 1340px;
+  height: 90px;
+}
+
+.helpline-section {
+  height: 50%;
+}
+
+.helpline-section ul {
+  height: 35px;
+  display: flex;
+  justify-content: end;
+  list-style: none;
+}
+
+.helpline-section ul li:nth-child(1) {
+  background-color: #398fc5;
+  padding: 10px;
+  color: white;
+}
+
+.helpline-section ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.helpline-section ul li div {
+  height: 35px;
+  display: inline-block;
+}
+
+.helpline-section ul li img {
+  height: 35px;
+  width: 274px;
+}
+
+.helpline-section ul li select {
+  height: 35px;
+  width: 150px;
+  background-color: #f1f1f1;
+  border-radius: 0px;
+  text-align: center;
+  text-align-last: center;
+  font-size: 14px;
+}
+
+.helpline-section ul li button {
+  height: 24px;
+  width: 80.27px;
+  background-color: #348abf;
+  border-radius: 28px;
+  border: 1px solid #4e6096;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 14px;
+  padding: 4px 22px;
+  margin: 6px 15px;
+  text-decoration: none;
+}
+
+.icon-section {
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.icon-section ul {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 30px;
+  list-style: none;
+}
+
+.icon-section ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+}
+
+.menu-bar {
+  height: 45px;
+  display: flex;
+}
+
+.blank {
+  width: 433px;
+  height: 45px;
+}
+
+.menu {
+  width: 1482px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  border-radius: 100px 0px 0px 0px;
+  background-color: #388fc5;
+}
+
+.menu ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 30px;
+  gap: 40px;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 14.5px;
+  line-height: 46px;
+  font-weight: 400;
+}
+/* Header Ends Here  */
