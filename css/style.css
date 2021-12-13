@@ -117,7 +117,6 @@ footer {
   color: #ffffff;
   font-family: Arial;
   font-size: 14px;
-  padding: 4px 22px;
   margin: 6px 15px;
   text-decoration: none;
 }
@@ -179,3 +178,85 @@ footer {
   font-weight: 400;
 }
 /* Header Ends Here  */
+
+/* Carousel Starts Here */
+.carousel-container {
+  height: 400px;
+}
+
+.carousel-control {
+  opacity: 0;
+}
+
+.carousel-inner > .item > img {
+  height: 400px;
+}
+
+.carousel-control.left,
+.carousel-control.right {
+  background-image: none !important;
+  filter: none !important;
+}
+/* Carousel Ends Here */
+
+/* Process-Bar Satrts Here  */
+.process-bar-container {
+  position: relative;
+}
+
+.process-bar-container > div {
+  height: 106px;
+  background-color: #008ec7;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+
+.process-bar-container > div:before {
+  top: 46px;
+  bottom: 0;
+  position: absolute;
+  content: " ";
+  width: 90%;
+  height: 1px;
+  background-color: #ccc;
+}
+
+.p-bar-box {
+  height: 94px;
+  width: 345px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+
+.p-bar-box div {
+  z-index: 9;
+}
+
+.enquiry-icon {
+  height: 60px;
+  width: 60px;
+  padding: 7px 0 7px 6px;
+  border-radius: 30px;
+  background-color: white;
+}
+
+.p-bar-box p {
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.p-bar-box img {
+  height: 31px;
+  width: 30px;
+  margin: 8px;
+}
+
+.fa-3x {
+  font-size: 2em;
+  padding: 6px 7px;
+}
+/* Process-Bar Ends Here */
