@@ -36,6 +36,11 @@ footer {
 /* CSS Initial Set-up ends here  */
 
 /* Header Starts From Here  */
+header {
+  position: sticky;
+  top: 0;
+  z-index: 99;
+}
 
 .header-container {
   height: 135px;
@@ -79,13 +84,14 @@ footer {
 
 .helpline-section ul li:nth-child(1) {
   background-color: #398fc5;
-  padding: 10px;
+  padding: 5px 15px;
   color: white;
 }
 
 .helpline-section ul li a {
   color: white;
   text-decoration: none;
+  font-size: 14px;
 }
 
 .helpline-section ul li div {
@@ -168,6 +174,7 @@ footer {
   justify-content: flex-end;
   margin-right: 30px;
   gap: 40px;
+  margin-bottom: 0;
 }
 
 .menu ul li a {
@@ -260,3 +267,422 @@ footer {
   padding: 6px 7px;
 }
 /* Process-Bar Ends Here */
+
+/* Why Choose US Section Starts Hre */
+
+.choose-us-container {
+  height: 454px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.choose-us-para {
+  height: 79px;
+  width: 1200px;
+}
+
+.choose-us-para h2 {
+  font-size: 21px;
+  text-align: center;
+  padding-top: 15px;
+  text-transform: uppercase;
+}
+
+.choose-us-para p {
+  font-size: 16px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.choose-us-photos {
+  height: 318px;
+  width: 1170px;
+  display: flex;
+  align-items: center;
+}
+
+.photo-box {
+  height: 300px;
+  width: 285px;
+  padding: 0 15px;
+}
+
+.photo-box img {
+  width: 207px;
+  height: 208px;
+  border-radius: 10px;
+}
+
+.photo-box h4 {
+  font-size: 14px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 35px;
+}
+
+.image-box {
+  width: 228px;
+  height: 228px;
+  background-color: #008ec7;
+  border-radius: 5px;
+  border: 1px solid grey;
+  margin: auto;
+  text-align: center;
+}
+
+.photo-box:nth-child(2) > .image-box {
+  background-color: #e81331;
+}
+
+.photo-box:nth-child(3) > .image-box {
+  background-color: #f78007;
+}
+
+.photo-box:nth-child(4) > .image-box {
+  background-color: #9fa700;
+}
+
+/* Why Choose US Section Ends Here   */
+
+/* Our Specialties Section Starts here */
+
+.specialties-container {
+  height: 440px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 40px 0;
+  background-color: #f7f7f7;
+}
+
+.specialties-boxes {
+  height: 360px;
+  width: 100%;
+}
+
+.s-box-para {
+  height: 83px;
+}
+
+.s-box-para h2 {
+  text-align: center;
+  font-size: 21px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.s-box-para p {
+  text-align: center;
+  margin: 0px 200px;
+  font-size: 16px;
+  padding-top: 8px;
+}
+
+.s-box-image {
+  height: 275px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.item {
+  background-color: #ffffff;
+  margin: auto;
+  padding: 5px 10px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 4px #00000040;
+}
+
+.owl-carousel .owl-item img {
+  width: 63px;
+  height: 63px;
+  border-radius: 40px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.owl-carousel .owl-item a {
+  text-transform: uppercase;
+  font-size: 14px;
+  color: black;
+}
+
+.owl-carousel .owl-item h3 {
+  text-align: center;
+  margin-top: 5px;
+}
+
+.owl-carousel .owl-item p {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.owl-carousel {
+  width: 66%;
+}
+
+.owl-carousel.owl-drag .owl-item {
+  padding: 10px;
+}
+
+/* Our Specialties Section Ends Here  */
+
+/* Specialists / Doctors Section Starts Here */
+
+.specialists-container {
+  height: 440px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+.specialists-boxes {
+  height: 360px;
+  width: 100%;
+}
+
+.s-box-docs {
+  height: 83px;
+}
+
+.s-box-docs h2 {
+  text-align: center;
+  font-size: 21px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.s-box-docs p {
+  text-align: center;
+  margin: 0px 200px;
+  font-size: 16px;
+  padding-top: 8px;
+}
+
+.s-box-images {
+  height: 370px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.item1 {
+  width: 198px;
+  height: 263px;
+  background-color: #ffffff;
+  margin: auto;
+  padding: 5px 10px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 4px #00000040;
+}
+
+.item1 img {
+  height: 160px;
+  width: 170px;
+}
+
+.item1 p {
+  text-align: center;
+  font-size: 12px;
+}
+
+.item1 h5 {
+  font-size: 12px;
+  color: #9fa700;
+  text-transform: uppercase;
+  font-weight: 800;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* Specialists / Doctors Section Starts Here */
+
+/* Footer Starts From Here  */
+
+footer {
+  background-color: #222222;
+}
+.footer-container {
+  height: 559px;
+  padding-top: 40px;
+  margin-top: 75px;
+}
+
+.footer-box {
+  height: 475px;
+  display: flex;
+  justify-content: center;
+}
+
+.f-boxes {
+  width: 1200px;
+  height: 475px;
+  display: flex;
+  justify-content: center;
+}
+
+.f-box,
+.f-box1 {
+  width: 300px;
+  height: 475px;
+}
+
+.f-box {
+  padding-right: 40px;
+}
+
+.f-box ul {
+  margin: 0;
+  padding: 0;
+}
+
+.f-box h5 {
+  color: #f0eded;
+  font-weight: 800;
+  text-transform: uppercase;
+  padding-left: 5px;
+  margin-bottom: 5px;
+  font-size: 0.9em;
+  line-height: 1.5;
+}
+
+.f-box li {
+  list-style: none;
+  padding-left: 5px;
+}
+.f-box a {
+  font-size: 12px;
+  font-weight: 400;
+  text-transform: initial;
+  text-decoration: none;
+  color: #c5c5c5;
+  line-height: 2.5rem;
+  height: auto;
+}
+
+.f-box1 h5 {
+  color: #f0eded;
+  font-weight: 800;
+  text-transform: uppercase;
+  padding-left: 5px;
+  margin-bottom: 5px;
+  font-size: 0.9em;
+  line-height: 1.5;
+}
+
+.f-box1-map img {
+  width: 300px;
+  height: 96px;
+  padding: 0 5px;
+}
+
+.f-box1-icon {
+  width: 270px;
+  height: 63px;
+  margin-top: 15px;
+  display: flex;
+}
+
+.f-box1-icon img {
+  height: 31px;
+  width: 31px;
+}
+
+.footer .f-box1 i {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  margin-bottom: 15px;
+  display: inline-block;
+  margin-right: 1px;
+  border-radius: 50%;
+  background: #1d1d1d;
+  color: #c5c5c5;
+  font-size: 30px;
+}
+
+.f-box1 a {
+  color: #c5c5c5;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.f-box1 .f-box1-icon a {
+  background-color: #3b5998;
+  border-radius: 52px;
+  height: 40px;
+  width: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+
+.f-box1 .f-box1-icon a:nth-child(2) {
+  background-color: #00acee;
+}
+
+.f-box1 .f-box1-icon a:nth-child(3) {
+  background-color: #0e76a8;
+}
+
+.f-box1 .f-box1-icon a:nth-child(4) {
+  background-color: #c4302b;
+}
+
+.f-box1 ul {
+  list-style: none;
+  padding-left: 5px;
+}
+
+.f-box1 p {
+  font-size: 12px;
+  color: #c5c5c5;
+  padding-left: 5px;
+  line-height: 2em;
+}
+
+.f-box1 input.email {
+  height: 40px;
+  width: 220px;
+  padding-left: 5px;
+  font-size: 13px;
+  outline: none;
+  background: transparent;
+  color: white;
+  border: 1px solid #c5c5c5;
+}
+
+.f-box1 input + button {
+  padding: 9px 22px;
+  margin-left: -10px;
+  height: 40px;
+}
+
+.f-box1 form {
+  padding-left: 5px;
+  margin-top: 15px;
+  width: 100%;
+}
+
+.footer-copyright {
+  height: 44px;
+  background-color: #1d1d1d;
+}
+
+.footer-copyright p {
+  text-align: center;
+  color: #7f7f7f;
+  padding-top: 11px;
+  text-transform: capitalize;
+  font-size: 15px;
+}
+
+/* Footer Ends Here  */
